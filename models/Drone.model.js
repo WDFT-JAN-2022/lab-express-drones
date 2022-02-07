@@ -23,6 +23,6 @@ const dronesSchema = new Schema (
 }
 );
 
-const Drones = mongoose.model('Drones', dronesSchema)
+const Drone = mongoose.model('Drone', dronesSchema)
 
-module.exports = Drones
+module.exports = Drone
